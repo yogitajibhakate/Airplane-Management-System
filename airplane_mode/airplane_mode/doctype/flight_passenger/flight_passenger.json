@@ -7,7 +7,9 @@
  "field_order": [
   "first_name",
   "last_name",
-  "date_of_birth"
+  "column_break_qxot",
+  "date_of_birth",
+  "full_name"
  ],
  "fields": [
   {
@@ -27,6 +29,16 @@
    "fieldtype": "Date",
    "label": "Date Of Birth ",
    "reqd": 1
+  },
+  {
+   "fieldname": "full_name",
+   "fieldtype": "Data",
+   "label": "Full Name",
+   "read_only": 1
+  },
+  {
+   "fieldname": "column_break_qxot",
+   "fieldtype": "Column Break"
   }
  ],
  "index_web_pages_for_search": 1,
@@ -36,7 +48,7 @@
    "link_fieldname": "passenger"
   }
  ],
- "modified": "2024-09-14 21:33:07.522340",
+ "modified": "2024-09-29 12:18:54.845453",
  "modified_by": "Administrator",
  "module": "Airplane Mode",
  "name": "Flight Passenger",
@@ -56,7 +68,9 @@
    "write": 1
   }
  ],
+ "show_title_field_in_link": 1,
  "sort_field": "modified",
  "sort_order": "DESC",
- "states": []
+ "states": [],
+ "title_field": "full_name"
 }

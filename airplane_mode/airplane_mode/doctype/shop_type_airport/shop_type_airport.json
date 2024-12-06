@@ -1,0 +1,48 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-12-04 07:15:25.158977",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "shop_type",
+  "enabled"
+ ],
+ "fields": [
+  {
+   "fieldname": "shop_type",
+   "fieldtype": "Data",
+   "label": "shop_type"
+  },
+  {
+   "default": "0",
+   "fieldname": "enabled",
+   "fieldtype": "Check",
+   "label": "Enabled?"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-12-05 01:01:52.077699",
+ "modified_by": "Administrator",
+ "module": "Airplane Mode",
+ "name": "Shop Type airport",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

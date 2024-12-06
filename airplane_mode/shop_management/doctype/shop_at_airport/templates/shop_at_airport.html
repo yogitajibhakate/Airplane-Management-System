@@ -1,0 +1,12 @@
+{% extends "templates/web.html" %}
+
+{% block page_content %}
+<h1>Availble Shops</h1>
+{{doc.airport}}
+
+<h1>Shop Name  {{ title |e }}</h1>
+<p>Tenant Name {{ doc.tenant }}</p>
+<p>Shop Number {{ doc.shop_number }}</p>
+<p>Location {{ doc.location}}</p>
+<button><a href="/shop-lead">Shop</a></button>
+{% endblock %}

@@ -1,0 +1,19 @@
+{
+  "doctype": "Airplane Ticket Add-on Type",
+  "fields": [
+    {
+      "fieldname": "item",
+      "fieldtype": "Link",
+      "label": "Item",
+      "options": "Airplane Ticket Add-on Type",
+      "reqd": 1
+    },
+    {
+      "fieldname": "amount",
+      "fieldtype": "Currency",
+      "label": "Amount",
+      "default": 0
+    }
+  ],
+  "is_child_table": 1
+}
