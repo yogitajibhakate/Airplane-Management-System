@@ -4,9 +4,9 @@ This is a custom application built using the Frappe Framework to manage both Air
 # ⚙️ Installation
 You can install this app using the [bench ](https://github.com/frappe/bench)CLI:
 
-<pre>cd $PATH_TO_YOUR_BENCH
-bench get-app $URL_OF_THIS_REPO --branch main
-bench install-app management</pre>
+cd $PATH_TO_YOUR_BENCH
+bench get-app $URL_OF_THIS_REPO --branch develop
+bench install-app airplane_mode
 
 # 🤝 Contributing
 This app uses pre-commit for code formatting and linting. Please [install pre-commit](https://pre-commit.com/#installation) and enable it for this repository:
