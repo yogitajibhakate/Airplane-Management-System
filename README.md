@@ -11,4 +11,11 @@ bench install-app management</pre>
 # 🤝 Contributing
 This app uses pre-commit for code formatting and linting. Please [install pre-commit](https://pre-commit.com/#installation) and enable it for this repository:
 
+Go to the app folder:
+
+<pre>
+cd apps/management
+pre-commit install</pre>
+
+
 
